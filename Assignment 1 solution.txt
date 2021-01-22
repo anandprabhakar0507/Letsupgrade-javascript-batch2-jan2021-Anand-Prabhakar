@@ -1,0 +1,66 @@
+Question 1
+What will the code below output to the console and why ?
+console.log(1 + "2" + "2");
+console.log(1 + +"2" + "2");
+console.log(1 + -"1" + "2");
+console.log(+"1" + "1" + "2");
+console.log( "A" - "B" + "2");
+console.log( "A" - "B" + 2);
+
+Solution1 - here is the output for code in question
+	VM43:1 122
+	VM43:2 32
+	VM43:3 02
+	VM43:4 112
+	VM43:5 NaN2
+	VM43:6 NaN
+	undefined
+	The code output is as above because 
+	*+ operator is used to join the two different datatypes while logging or printing.
+
+	*In first case console.log(1 + "2" + "2") is just getting added as data types 	are 		integer and string
+
+	*when any operator is included just before integer value casted to string then it 		converts to integer and acts as integer inthe statement, like in 
+	console.log(1 + +"2" + "2") and console.log(1 + -"1" + "2")
+
+	*but whenever operator is inserted before a string having alphabetic characters inside 	then the corresponding value beconmes the Nan like in 5th and 6th line
+
+
+Question 2
+You are given a variable “marks”. Your task is to print:
+- AA if the mark is greater than 90
+- AB if the mark is greater than 80 and less than or equal to 90
+- BB if the mark is greater than 70and less than or equal to 80
+- BC if the mark is greater than 60 and less than or equal to 70
+- CC if the mark is greater than 50 and less than or equal to 60
+- CD if the mark is greater than 40 and less than or equal to 50
+- DD if the mark is greater than 30 and less than or equal to 40
+- FF if the mark is less than or equal to 30
+
+
+Solution2 -  
+	if(marks > 90){
+	    console.log("AA");
+	} else if(marks>80 && marks<= 90){
+	    console.log("AB");
+	} else if(marks>70 && marks<= 80){
+	    console.log("BB");
+	} else if(marks>60 && marks<=70){
+	    colsole.log("BC");
+	} else if(marks>50 && marks <=60){
+	    console.log("CC");
+	} else if(marks>40 && marks<=50){
+	    console.log("CD");
+	} else if(marks >30 && marks<=40){
+	    console.log("DD");
+	} else if(marks >20 && marks<= 30){
+	    console.log("FF");
+	} else{
+	    console.log("FF");
+	}
+
+
+	it gives the output
+
+	VM1432:10 CC
+	undefined
