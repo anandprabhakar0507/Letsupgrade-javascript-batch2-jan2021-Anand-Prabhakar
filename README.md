@@ -1,4 +1,7 @@
 # Letsupgrade-javascript-batch2-jan2021-Anand-Prabhakar
+### Anand Prabhakar Github [link](https://github.com/anandprabhakar0507)
+
+**- Note : All the solutions i.e js and html file are working i tested them all. -**
 
 #### 21/january/2021 [Assignment1](https://drive.google.com/drive/folders/15US7MsuUqnyCS83uxTE6JKkDhufUk9-q) - [solution](https://github.com/anandprabhakar0507/Letsupgrade-javascript-batch2-jan2021-Anand-Prabhakar/blob/main/Assignment%201%20solution.txt)
 
