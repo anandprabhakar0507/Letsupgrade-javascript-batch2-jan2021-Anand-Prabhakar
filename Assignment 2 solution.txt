@@ -1,0 +1,28 @@
+Question 1
+What is the value of clothes[0] and why?
+const clothes = ['jacket', 't-shirt'];
+clothes.length = 0;
+console.log(clothes[0]);
+
+Solution - The length property behaves differently as it deletes all elements array when we 	set to 0.
+	Here last line console.log(clothes[0]) returns nothing as we have already set the 		length property to 0.But, if we do not write the second line clothes.length = 0, 		then we get the acquired result as usual.
+	we get the output undefined when we run the code in file.
+
+
+
+Question 2
+Write a Javascript program to find the sum of all elements of a given array?
+
+Solution - 
+	var array = [55,27,230,56,70,1];
+	sum = 0
+	var i;
+	for(i = 0; i<array.length; i++){
+    	sum = sum + array[i];}
+	console.log("Sum of Numbers in array is: " +sum);
+
+	VM466:1 Sum of Numbers in array is: 439
+	undefined
+
+
+
