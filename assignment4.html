@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum of Two Numbers</title>
+    <script>
+        function sumthem(){
+            var x,y,sum;
+            x =  Number(document.getElementById('a').value);
+            y =  Number(document.getElementById('b').value);
+            sum = x+y;
+            document.getElementById("display").innerHTML ="The Sum of Numbers "+x+" and "+y+" is "+sum;
+            
+        }
+    </script>
+</head>
+<body align="center">
+    <h1>Sum of Two Numbers</h1>
+    <br>
+    
+        <div>Enter First Number : </span><input name="a" id="a" ><br><br>
+        <span>Enter Second Number : </span><input name="b" id="b"><br><br>
+        <span id="display"></span>
+        <br><br>
+        <button onclick="sumthem()">Add both numbers</button><br><br>
+    </div>
+    
+</body>
+</html>

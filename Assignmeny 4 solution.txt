@@ -1,0 +1,48 @@
+Question 1
+By how many ways we can access elements in the DOM and write about them in brief?
+
+Solution - 
+	There are five main ways to access the elements of DOM model.
+	o Accessing Elements by ID(id is unique) - we can access the elements using the id selector(#Id), using the method getElementById(idname_here).
+	o Accessing Elements by class name (class is not unique) - We can access elements having the class(.class) using method getElementByClassName(classname).
+	o Accessing elements by html tags - we can use getElementByTagName(tagname).
+	o Selecting by selector - query selector can be used as document.querySelector(query)
+	o Accessing by query selector all -  document.querySelectorAll(query)
+
+
+Question 2
+Write a javascript program that will take 2 numbers from the HTML page and display them on the
+HTML page after the addition of those 2 numbers.
+Hint: Your HTML page should look like this.
+
+solution - 
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Sum of Two Numbers</title>
+	    <script>
+	        function sumthem(){
+	            var x,y,sum;
+	            x =  Number(document.getElementById('a').value);
+	            y =  Number(document.getElementById('b').value);
+	            sum = x+y;
+	            document.getElementById("display").innerHTML ="The Sum of Numbers "+x+" 	and "+y+" is "+sum;
+            
+	        }
+	    </script>
+	</head>
+	<body align="center">
+	    <h1>Sum of Two Numbers</h1>
+	    <br>
+    
+	        <div>Enter First Number : </span><input name="a" id="a" ><br><br>
+	        <span>Enter Second Number : </span><input name="b" id="b"><br><br>
+	        <span id="display"></span>
+	        <br><br>
+ 	       <button onclick="sumthem()">Add both numbers</button><br><br>
+	    </div>
+    
+	</body>
+	</html>
