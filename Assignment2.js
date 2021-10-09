@@ -1,4 +1,5 @@
-const clothes = ['jacket', 't-shirt'];
+const clothes = ['jacket', 't-shirt', 'trouser', 'jeans'];
+console.log(clothes)
 clothes.length = 0;
 console.log(clothes[0]);
 
