@@ -27,7 +27,7 @@ for(i; i< library.length ; i++){
     if(library[i]['readingStatus'] == true){
         console.log("Already read \'" +library[i]['author']+ "\' by "+library[i]['title']);}
     else{
-        console.log("You still need to read \'" +library[i]['title']+ "\' by " +library[i]['author']);}
+        console.log("You still need to read \'" +library[i]['title']+ "\' by " +library[i]['author'] +"Book");}
 }
 
 
@@ -36,5 +36,5 @@ age = window.prompt("Enter your age(integer): ");
 if (age <18){
     alert("Not legal age to drive");
 } else {
-    alert("Drive safe");
+    alert("Drive safely you are allowed to drive");
 }
