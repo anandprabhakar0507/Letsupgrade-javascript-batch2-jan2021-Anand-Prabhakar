@@ -5,7 +5,12 @@ console.log(clothes[0]);
 
 var array = [55,27,230,56,70,1];
 sum = 0
+dif=0
 var i;
 for(i = 0; i<array.length; i++){
-sum = sum + array[i];}
+sum = sum + array[i];
+dif = sum- array[i];
+}
 console.log("Sum of Numbers in array is: " +sum);
+console.log("difference be like: " +dif);
+
